@@ -1,4 +1,4 @@
-import mongoose, { model } from "mongoose"
+import mongoose, { model,Document } from "mongoose"
 interface Userschema{
     name:{type:string},
     age:{type:number},
